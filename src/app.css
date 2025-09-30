@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.main__button {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    outline: 1px dashed gray;
+}
+
+.main__button:hover {
+    background-color: gray;
+}

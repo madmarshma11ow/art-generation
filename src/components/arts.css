@@ -1,0 +1,21 @@
+.art__image {
+    max-width: 100px;
+    max-height: 100px;
+}
+.art__button {
+    background-color: white;
+    transform: scale(1, 1);
+    transition: 1s;
+}
+.art__button:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
+}
+
+.art__info {
+    align-self: center;
+    padding: 1rem;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
